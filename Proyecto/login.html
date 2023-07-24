@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Gestion de Desechos-GAD MANTA</title>
+    <link rel="shortcut icon" href="images/logo_blanco.jpg">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="login_principal">
+        <img class="logo"   src="images/logo_blanco.jpg" width="150" height="100">
+        <div class="titulo"><h2>Inicio de Sesión</h2></div>
+        <form action="menu.html" class="form" id="form_index">
+            <div class="Inicio">
+                <div class="correo_ins">
+                    <span class="detalles">Correo</span>
+                    <label class="correo_ins"></label>
+                    <br>
+                    <br>
+                    <input type="email" id="correo_index" placeholder="Ingresa tu correo">
+                    <small></small>
+                </div>
+                <br>
+                <div class="contraseña_ins">
+                    <span class="detalles">Contraseña</span>
+                    <label class="contraseña_ins"></label>
+                    <br>
+                    <br>
+                    <input type="password" id="contraseña_index" placeholder="Ingresa tu contraseña"  >
+                </div>
+            </div>
+            <div class="button__login"><br>
+            <!--<a href="#"> <button> Iniciar Sesion</button></a> -->
+            <!--<input class="control" type="submit" value="Iniciar Sesión" /> -->
+            <div class="g-recaptcha" data-sitekey="6LeLh0onAAAAAPeHnoiWoWQNuCw6uNwtTKPkt7VH"></div>
+            <button type="submit">Iniciar Sesión</button>
+            <br>
+            <br>
+            <span>¿No tienes cuenta? <a href="registro.html" style="text-decoration: none; color: black; font-weight: 600;">Registrate</a></span>
+            <br>
+            <p>Inicio de Sesion <b>exclusivo para colaboradores</b></p>
+        </div>
+        </form>
+    </div>
+<script src="js/login.js"></script>       
+</body>
+</html>
